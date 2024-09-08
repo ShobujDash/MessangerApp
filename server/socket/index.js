@@ -15,7 +15,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: process.env.FRNTEND_URL,
+    origin: "https://shobujmessanger.netlify.app",
     methods: ["GET", "POST"],
     credentials: true,
   },
