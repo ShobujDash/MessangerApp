@@ -10,7 +10,7 @@ const {app,server} = require('./socket/index')
 // const app = express();
 app.use(
   cors({
-    origin: "https://shobuj-messanger.netlify.app",
+    origin: "https://dasmessanger.netlify.app",
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
